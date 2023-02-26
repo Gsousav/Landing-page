@@ -13,13 +13,28 @@ body{
   flex-direction: column;
 }
 
+img{
+  width: 500px;
+}
+
+h1{
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
 .container{
   display: flex;
   flex-direction: column;
+  padding: 12px 20px;
 }
 
-.container.header{
+.container.hero{
   background-color: #1f2937;
+  padding-bottom: 120px;
 }
 
 .logo{
@@ -28,8 +43,10 @@ body{
   font-weight: 700;
 }
 
-#navigation{
+#navigation, .header-info > p, a{
   color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .header-wrapper{
@@ -44,4 +61,20 @@ ul{
   gap: 16px;
   list-style: none;
 }
+
+.hero-heading{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-info p{
+  width: 400px;
+}
+
+
+
+
+
 
