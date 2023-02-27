@@ -55,6 +55,14 @@ h1{
   width: 400px;
 }
 
+a{
+  transition: color 0.25s;
+}
+
+a:hover{
+  color: rgba(255, 0, 0, 0.661);
+}
+
 .container{
   display: flex;
   flex-direction: column;
@@ -202,6 +210,15 @@ ul{
 .popup-description .description{
   font-size: 18px;
   color: var(--secondary);
+}
+
+section.footer{
+  background-color: var(--dark-background);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  color: var(--secondary);
+  font-weight: 300;
 }
 
 
