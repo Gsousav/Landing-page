@@ -15,6 +15,21 @@ body, html{
   padding: 0;
 }
 
+button{
+  background-color: var(--button-color);
+  border-radius: 10px;
+  border-style: none;
+  padding: 10px;
+  color: var(--hero-title);
+  font-weight: 700;
+}
+
+button:hover{
+  color: var(--button-color);
+  background-color: var(--hero-title);
+  cursor: pointer;
+}
+
 body{
   display: flex;
   flex-direction: column;
@@ -90,20 +105,32 @@ ul{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .container.information > .information-img{
   display: flex;
   gap: 20px;
   justify-content: center;
-  flex-direction: ;
 }
 
+.information-img .image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information-img .image p{
+  width: 150px;
+  text-align: center;
+}
 
 .information-img img{
-  width: 200px;
+  width: 180px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 30px;
+  border-radius: 15px;
 }
 
 
